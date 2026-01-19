@@ -14,11 +14,6 @@ const { Title, Paragraph, Text } = Typography;
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
-  const [loadingButtons, setLoadingButtons] = useState({
-    getStarted: false,
-    watchDemo: false,
-    login: false
-  });
   const [fullPageLoading, setFullPageLoading] = useState(false);
 
   const features = [
