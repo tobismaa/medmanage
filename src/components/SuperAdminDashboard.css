@@ -1,0 +1,71 @@
+.admin-sidebar {
+  background: #001529;
+}
+
+.sidebar-logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 16px;
+  border-radius: 8px;
+}
+
+.admin-header {
+  background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+/* Card styles */
+.ant-card {
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Table styles */
+.ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: #f6f9ff;
+}
+
+/* Timeline styles */
+.ant-timeline-item-head {
+  width: 12px;
+  height: 12px;
+}
+
+.ant-timeline-item-tail {
+  left: 5px;
+}
+
+/* Avatar styles */
+.ant-avatar {
+  background: #1E40AF;
+}
+
+/* Button styles */
+.ant-btn {
+  border-radius: 6px;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+  border: none;
+}
+
+.ant-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+}
